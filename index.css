@@ -1,5 +1,4 @@
- 
-        * {
+ * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -68,7 +67,7 @@
         }
 
         body {
-            height: 100vh;
+            min-height: 100vh;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -187,7 +186,7 @@
         .mini-con {
             border: 1px solid gainsboro;
             width: 15rem;
-            height: 12rem;
+            min-height: 12rem;
             padding: 1rem 1.5rem;
             border-radius: 17px;
             background: #f9f9f9;
@@ -230,7 +229,7 @@
         }
 
         .flex3 {
-            height: 12rem;
+            min-height: 12rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -410,7 +409,7 @@
 
             .flex3 {
                 width: 100%;
-                height: 11rem;
+                mini-height: 11rem;
             }
 
             .width3-100 {
@@ -430,4 +429,3 @@
                 border-radius: 13px;
             }
         }
- 
